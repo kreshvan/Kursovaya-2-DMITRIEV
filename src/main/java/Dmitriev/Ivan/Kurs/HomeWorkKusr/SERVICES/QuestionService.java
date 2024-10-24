@@ -1,8 +1,10 @@
-package Dmitriev.Ivan.Kurs.HomeWorkKusr;
+package Dmitriev.Ivan.Kurs.HomeWorkKusr.SERVICES;
+
+import Dmitriev.Ivan.Kurs.HomeWorkKusr.Question;
 
 import java.util.Collection;
 
-public interface QuestionService {
+public interface  QuestionService {
     Question add(String question, String answer);
 
     Question add(Question question);

@@ -3,7 +3,7 @@ package Dmitriev.Ivan.Kurs.HomeWorkKusr;
 import java.util.Collection;
 import java.util.List;
 
-public class TestData {
+public class TestData   {
 
     public final static Question RANDOM_QUESTION_1 = new Question("AAA", "111");
 

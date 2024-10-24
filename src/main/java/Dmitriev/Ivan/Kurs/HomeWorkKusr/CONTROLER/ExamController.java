@@ -1,5 +1,7 @@
-package Dmitriev.Ivan.Kurs.HomeWorkKusr;
+package Dmitriev.Ivan.Kurs.HomeWorkKusr.CONTROLER;
 
+import Dmitriev.Ivan.Kurs.HomeWorkKusr.Question;
+import Dmitriev.Ivan.Kurs.HomeWorkKusr.SERVICES.ExaminerService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Collection;
@@ -9,7 +11,7 @@ import java.util.Collection;
 public class ExamController {
     private final ExaminerService examinerService;
 
-    public ExamController(ExaminerService examinerService) {
+    public ExamController(ExaminerService examinerService)  {
         this.examinerService = examinerService;
     }
 

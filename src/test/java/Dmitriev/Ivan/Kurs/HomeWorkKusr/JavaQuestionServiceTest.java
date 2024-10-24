@@ -1,15 +1,17 @@
 package Dmitriev.Ivan.Kurs.HomeWorkKusr;
 
+import Dmitriev.Ivan.Kurs.HomeWorkKusr.Exception.NoSuchQuestionException;
+import Dmitriev.Ivan.Kurs.HomeWorkKusr.Exception.addingSimilarQuestionException;
+import Dmitriev.Ivan.Kurs.HomeWorkKusr.SERVICES.JavaQuestionService;
 import org.junit.jupiter.api.Test;
 
 import java.util.Collection;
-import java.util.Collections;
 
 import static Dmitriev.Ivan.Kurs.HomeWorkKusr.TestData.*;
 import static org.assertj.core.api.Assertions.assertThat;    //сравнение двух обЪектов
 import static org.assertj.core.api.Assertions.assertThatExceptionOfType;
 
-class JavaQuestionServiceTest {
+class JavaQuestionServiceTest  {
     JavaQuestionService javaQuestionService = new JavaQuestionService();
 
     @Test

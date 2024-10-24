@@ -1,14 +1,14 @@
-package Dmitriev.Ivan.Kurs.HomeWorkKusr;
+package Dmitriev.Ivan.Kurs.HomeWorkKusr.CONTROLER;
 
-import jakarta.annotation.PostConstruct;
-import org.springframework.beans.factory.annotation.Autowired;
+import Dmitriev.Ivan.Kurs.HomeWorkKusr.Question;
+import Dmitriev.Ivan.Kurs.HomeWorkKusr.SERVICES.QuestionService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Collection;
 
 @RestController
 @RequestMapping("/exam/java")
-public class QuestionRestController {
+public class QuestionRestController  {
 
     private final QuestionService questionService;
 

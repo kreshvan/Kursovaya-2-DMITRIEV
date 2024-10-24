@@ -1,14 +1,17 @@
-package Dmitriev.Ivan.Kurs.HomeWorkKusr;
+package Dmitriev.Ivan.Kurs.HomeWorkKusr.SERVICES;
 
+import Dmitriev.Ivan.Kurs.HomeWorkKusr.Exception.NoSuchQuestionException;
+import Dmitriev.Ivan.Kurs.HomeWorkKusr.Exception.OversizeException;
+import Dmitriev.Ivan.Kurs.HomeWorkKusr.Exception.addingSimilarQuestionException;
+import Dmitriev.Ivan.Kurs.HomeWorkKusr.Question;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 import java.util.*;
-import java.util.stream.Stream;
 
 @Service
 @Component
-public class JavaQuestionService implements QuestionService {
+public class JavaQuestionService  implements QuestionService  {
 
     Set<Question> questionsSet = new HashSet<Question>();
     static final int MaxQuestions = 1000;

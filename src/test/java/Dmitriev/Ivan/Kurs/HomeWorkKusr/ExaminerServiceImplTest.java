@@ -1,5 +1,8 @@
 package Dmitriev.Ivan.Kurs.HomeWorkKusr;
 
+import Dmitriev.Ivan.Kurs.HomeWorkKusr.Exception.QuestionAmountMismatchException;
+import Dmitriev.Ivan.Kurs.HomeWorkKusr.SERVICES.ExaminerServiceImpl;
+import Dmitriev.Ivan.Kurs.HomeWorkKusr.SERVICES.JavaQuestionService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -12,11 +15,10 @@ import java.util.Collection;
 
 import static Dmitriev.Ivan.Kurs.HomeWorkKusr.TestData.*;
 import static org.assertj.core.api.Assertions.*;
-import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
 
 @ExtendWith(MockitoExtension.class)
-class ExaminerServiceImplTest {
+class ExaminerServiceImplTest  {
     @Mock
     private JavaQuestionService javaQuestionService;
     @InjectMocks
