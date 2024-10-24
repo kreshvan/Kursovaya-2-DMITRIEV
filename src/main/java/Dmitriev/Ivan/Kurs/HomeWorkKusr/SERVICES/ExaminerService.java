@@ -1,4 +1,6 @@
-package Dmitriev.Ivan.Kurs.HomeWorkKusr;
+package Dmitriev.Ivan.Kurs.HomeWorkKusr.SERVICES;
+
+import Dmitriev.Ivan.Kurs.HomeWorkKusr.Question;
 
 import java.util.Collection;
 

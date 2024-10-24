@@ -5,7 +5,7 @@ import java.util.Objects;
 public class Question {
     private final String question;
     private final String answer;
-    public Question(String question, String answer) {
+    public Question(String question,String answer) {
         this.question = question;
         this.answer = answer;
     }
@@ -13,7 +13,7 @@ public class Question {
         return question;
     }
 
-public String getAnswer() {
+public String getAnswer()  {
         return answer;
 }
 
