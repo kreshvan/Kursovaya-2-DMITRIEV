@@ -4,7 +4,7 @@ import Dmitriev.Ivan.Kurs.HomeWorkKusr.Question;
 
 import java.util.Collection;
 
-public interface  ExaminerService  {
+public interface ExaminerService  {
 
     Collection<Question> getQuestions(int amount);
 }

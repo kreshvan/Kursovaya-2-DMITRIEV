@@ -11,7 +11,7 @@ import static Dmitriev.Ivan.Kurs.HomeWorkKusr.TestData.*;
 import static org.assertj.core.api.Assertions.assertThat;    //сравнение двух обЪектов
 import static org.assertj.core.api.Assertions.assertThatExceptionOfType;
 
-class JavaQuestionServiceTest  {
+class JavaQuestionServiceTest {
     JavaQuestionService javaQuestionService = new JavaQuestionService();
 
     @Test

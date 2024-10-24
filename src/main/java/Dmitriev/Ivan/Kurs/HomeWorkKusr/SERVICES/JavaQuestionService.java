@@ -11,7 +11,7 @@ import java.util.*;
 
 @Service
 @Component
-public class JavaQuestionService  implements QuestionService  {
+public class JavaQuestionService  implements QuestionService {
 
     Set<Question> questionsSet = new HashSet<Question>();
     static final int MaxQuestions = 1000;

@@ -13,7 +13,7 @@ public class Question {
         return question;
     }
 
-public String getAnswer() {
+public String getAnswer()  {
         return answer;
 }
 

@@ -8,7 +8,7 @@ import java.util.Collection;
 
 @RestController
 @RequestMapping("/exam/java")
-public class QuestionRestController  {
+public class QuestionRestController {
 
     private final QuestionService questionService;
 
